@@ -1,0 +1,50 @@
+<patients>
+	<patient>
+		<patientGuid>123</patientGuid>
+		<firstName>Jane</firstName>
+		<lastName>Doe</lastName>
+		<dob>2000-08-16</dob>
+		<sexAtBirth>F</sexAtBirth>
+		<patientVisit>
+			<visitId>101</visitId>
+			<visitDescription>Flu</visitDescription>
+			<visitDateUtc>2019-05-10</visitDateUtc>
+			<patientVisitWaiting>
+				<priority>high</priority>
+			</patientVisitWaiting>
+		</patientVisit>
+	</patient>
+
+	<patient>
+		<patientGuid>100</patientGuid>
+		<firstName>Jose </firstName>
+		<lastName>Wells</lastName>
+		<dob>1999-10-1</dob>
+		<sexAtBirth>M</sexAtBirth>
+		<patientVisit>
+			<visitId>102</visitId>
+			<visitDescription>Ebola</visitDescription>
+			<visitDateUtc>2019-05-11</visitDateUtc>
+			<patientVisitWaiting>
+				<priority>high</priority>
+			</patientVisitWaiting>
+		</patientVisit>
+	</patient>
+
+	<patient>
+		<patientGuid>7414</patientGuid>
+		<firstName>Lavender</firstName>
+		<lastName>Gooms</lastName>
+		<dob>1988-2-29</dob>
+		<sexAtBirth>M</sexAtBirth>
+		<patientVisit>
+			<visitId>301</visitId>
+			<visitDescription>Dysentery</visitDescription>
+			<visitDateUtc>2019-07-11</visitDateUtc>
+			<patientVisitWaiting>
+				<priority>medium</priority>
+			</patientVisitWaiting>
+		</patientVisit>
+	</patient>
+
+</patients>
