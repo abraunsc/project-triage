@@ -32,7 +32,22 @@
       <div id="mainContent" class="col">
         <div id="patientRecordApp">
           <form>
-
+            <div class= "form-group">
+              <label for="recordFirstName">First Name</label><br>
+              <input type="text" class="form-control" id = "recordFirstName" v-model="formPatient.firstName">
+            </div>
+            <div class= "form-group">
+              <label for="recordLastName">Last Name</label><br>
+              <input type="text" class="form-control" id = "recordLastName" v-model="formPatient.lastName">
+            </div>
+            <div class= "form-group">
+              <label for="recordDOB">Date of Birth</label><br>
+              <input type="date" class="form-control" id = "recordDOB" v-model="formPatient.dob">
+            </div>
+            <div class= "form-group">
+              <label for="recordSAB">Sex at Birth</label><br>
+              <input type="text" class="form-control" id = "recordSAB" v-model="formPatient.sexAtBirth">
+            </div>
           </form>
           <table class="table table-sm table-hover">
             <thead>
@@ -52,17 +67,6 @@
           </table>
         </div>
         <div id="patientTriageApp">
-        </div>
-      </div>
-      <div id="patientWaitingApp" class="col-md-4 queueView">
-        <div class="patientWaiting patient"
-        :class="patient.priority +'Priority'"
-         v-for="patient in patients">
-          arrival time<br>
-          <span class="patientName">{{ patient.lastName }}</span>
-          <span class="patientName">{{ patient.firstName }}</span><br>
-          <span>{{ patient.sexAtBirth }}</span>
-          <span>{{ patient.dob }}</span>
         </div>
       </div>
     </div>
