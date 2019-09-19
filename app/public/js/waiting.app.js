@@ -25,7 +25,7 @@ var patientRecordApp = new Vue({
       }
     },
     handleCreatedRecord(patient) {
-      console.log(patient)
+      console.log()
     }
   },
   created() {
